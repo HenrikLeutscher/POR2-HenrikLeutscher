@@ -1,6 +1,7 @@
 import Holidaze from "../assets/img/projects/Holidaze.png";
 import Snazzy from "../assets/img/projects/Snazzy.png";
 import Nexora from "../assets/img/projects/Nexora.png";
+import Dealery from "../assets/img/projects/Dealery.png";
 
 export const ProjectData = [
   {
@@ -46,7 +47,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    title: "Holidaze - Semester Project 2",
+    title: "Holidaze - Project Exam 2",
     Media: {
       url: Holidaze,
       alt: "Desktop and mobile screenshot of the Holidaze Web Application",
@@ -66,5 +67,21 @@ export const ProjectData = [
     ],
     liveLink: "https://pe2-henrikleutscher-holidaze.netlify.app/",
     repoLink: "https://github.com/HenrikLeutscher/PE2-Holidaze-HenrikLeutscher",
+  },
+  {
+    id: 4,
+    title: "Dealery - Semester Project 2",
+    Media: {
+      url: Dealery,
+      alt: "Desktop and mobile screenshot of the Dealery auction platform",
+      caption: "Desktop and mobile screenshot of the Dealery auction platform",
+    },
+    teaserDescription:
+      "Auction platform featuring bidding, listings and user profiles.",
+    description:
+      "Dealery is an auction platform developed as part of Semester Project 2 using HTML, JavaScript and Tailwind CSS. Visitors can browse and search auction listings, while registered users can create, edit and delete their own listings, place bids using credits and manage their profiles. New users receive an initial credit balance of 1,000 credits. The application integrates with the Noroff API (V2) and demonstrates authentication, API integration, CRUD operations, search functionality and responsive frontend development using Vanilla JavaScript.",
+    techStack: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+    liveLink: "https://dealerysp2.netlify.app/",
+    repoLink: "https://github.com/HenrikLeutscher/FED2-SemesterProject2",
   },
 ];
